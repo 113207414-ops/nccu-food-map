@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>政大周邊吃飯地圖</title><link rel="stylesheet" href="assets/style.css"><script src="assets/filter.js" defer></script></head>
+<body><header><nav class="wrap"><a href="index.html">政大周邊吃飯地圖</a></nav></header>
+<main class="wrap">
+<section class="hero"><p class="eyebrow">NCCU FOOD MAP ／ 木柵・指南路</p>
+<h1>下課，今天吃什麼？</h1><p>從政大正門出發，看看附近有哪些飯、麵、水餃、咖哩和素食。</p>
+<a href="#shops">直接看 10 家店 ↓</a></section>
+<section class="filters" aria-label="餐點分類" hidden>
+<button type="button" aria-pressed="true" data-filter="">全部</button><button type="button" aria-pressed="false" data-filter="飯類">飯類</button><button type="button" aria-pressed="false" data-filter="麵食">麵食</button><button type="button" aria-pressed="false" data-filter="水餃">水餃</button><button type="button" aria-pressed="false" data-filter="咖哩">咖哩</button><button type="button" aria-pressed="false" data-filter="素食">素食</button></section>
+<section class="map"><h2>街區示意圖</h2><p>依地址街區分組，非比例地圖。點店家標記可開啟店家頁與導航。</p><section class="street"><h3>指南路二段</h3><div><a class="pin" href="shops/chicken-house.html" data-category="飯類"><b>01</b>雞肉本家 政大店</a><a class="pin" href="shops/lazy-pasta.html" data-category="麵食"><b>03</b>Lazy Pasta 文山政大店</a><a class="pin" href="shops/hainan-chicken.html" data-category="飯類"><b>04</b>指南山下海南雞飯</a><a class="pin" href="shops/yunnan-kitchen.html" data-category="麵食"><b>05</b>滇味廚房 政大總店</a><a class="pin" href="shops/bafang.html" data-category="水餃"><b>06</b>八方雲集 政大店</a><a class="pin" href="shops/beef-noodles.html" data-category="麵食"><b>07</b>政大原汁牛肉麵</a><a class="pin" href="shops/geng-king.html" data-category="麵食"><b>09</b>正大焿大王 政大店</a><a class="pin" href="shops/little-happiness.html" data-category="咖哩"><b>10</b>小確幸</a></div></section><section class="street"><h3>萬壽路</h3><div><a class="pin" href="shops/shiding-goose.html" data-category="飯類"><b>02</b>食鼎鵝肉</a></div></section><section class="street"><h3>校園內</h3><div><a class="pin" href="shops/vegetarian.html" data-category="素食"><b>08</b>素還真 政大店</a></div></section></section>
+<section id="shops"><div class="listing"><h2>店家列表</h2><p id="count" aria-live="polite">10 家店</p></div>
+<div class="grid"><a class="card" href="shops/chicken-house.html" data-category="飯類">
+<p class="eyebrow">01 ／ 飯類 · 指定餐點</p><h3>雞肉本家 政大店</h3>
+<p class="dish">好吃雞肉飯</p><p class="address">台北市文山區指南路二段81號</p><span>查看店家 →</span></a><a class="card" href="shops/shiding-goose.html" data-category="飯類">
+<p class="eyebrow">02 ／ 飯類 · 指定餐點</p><h3>食鼎鵝肉</h3>
+<p class="dish">鵝肉便當</p><p class="address">台北市文山區萬壽路7號</p><span>查看店家 →</span></a><a class="card" href="shops/lazy-pasta.html" data-category="麵食">
+<p class="eyebrow">03 ／ 麵食 · 指定餐點</p><h3>Lazy Pasta 文山政大店</h3>
+<p class="dish">義大利麵</p><p class="address">台北市文山區指南路二段161號</p><span>查看店家 →</span></a><a class="card" href="shops/hainan-chicken.html" data-category="飯類">
+<p class="eyebrow">04 ／ 飯類</p><h3>指南山下海南雞飯</h3>
+<p class="dish">海南雞飯</p><p class="address">台北市文山區指南路二段139號</p><span>查看店家 →</span></a><a class="card" href="shops/yunnan-kitchen.html" data-category="麵食">
+<p class="eyebrow">05 ／ 麵食</p><h3>滇味廚房 政大總店</h3>
+<p class="dish">過橋米線</p><p class="address">台北市文山區指南路二段167號</p><span>查看店家 →</span></a><a class="card" href="shops/bafang.html" data-category="水餃">
+<p class="eyebrow">06 ／ 水餃</p><h3>八方雲集 政大店</h3>
+<p class="dish">水餃</p><p class="address">台北市文山區指南路二段47號</p><span>查看店家 →</span></a><a class="card" href="shops/beef-noodles.html" data-category="麵食">
+<p class="eyebrow">07 ／ 麵食</p><h3>政大原汁牛肉麵</h3>
+<p class="dish">牛肉麵</p><p class="address">台北市文山區指南路二段59號</p><span>查看店家 →</span></a><a class="card" href="shops/vegetarian.html" data-category="素食">
+<p class="eyebrow">08 ／ 素食</p><h3>素還真 政大店</h3>
+<p class="dish">素食快餐</p><p class="address">台北市文山區指南路二段64號・政大憩賢樓1樓</p><span>查看店家 →</span></a><a class="card" href="shops/geng-king.html" data-category="麵食">
+<p class="eyebrow">09 ／ 麵食</p><h3>正大焿大王 政大店</h3>
+<p class="dish">綜合焿麵</p><p class="address">台北市文山區指南路二段151號</p><span>查看店家 →</span></a><a class="card" href="shops/little-happiness.html" data-category="咖哩">
+<p class="eyebrow">10 ／ 咖哩</p><h3>小確幸</h3>
+<p class="dish">酥炸香酥雞咖哩飯</p><p class="address">台北市文山區指南路二段45巷1號</p><span>查看店家 →</span></a></div></section></main>
+<footer class="wrap">政大正餐指南 · 店家資料以各頁公開來源為準</footer></body></html>

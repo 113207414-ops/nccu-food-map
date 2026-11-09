@@ -1,0 +1,155 @@
+[
+  {
+    "slug": "chicken-house",
+    "name": "雞肉本家 政大店",
+    "category": "飯類",
+    "dish": "好吃雞肉飯",
+    "address": "台北市文山區指南路二段81號",
+    "area": "指南路二段",
+    "sources": [
+      {
+        "label": "Uber Eats 政大店菜單",
+        "url": "https://www.ubereats.com/tw/store/雞肉本家-政大店/XmyVzTEsXAScSUI-2HoL-Q"
+      }
+    ],
+    "featured": true,
+    "price": {
+      "amount": 159,
+      "kind": "外送價",
+      "checked": "2026-11-08"
+    }
+  },
+  {
+    "slug": "shiding-goose",
+    "name": "食鼎鵝肉",
+    "category": "飯類",
+    "dish": "鵝肉便當",
+    "address": "台北市文山區萬壽路7號",
+    "area": "萬壽路",
+    "sources": [
+      {
+        "label": "店家地址與餐點介紹",
+        "url": "https://snoopyblog.com/blog/post/shidinggoose"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "slug": "lazy-pasta",
+    "name": "Lazy Pasta 文山政大店",
+    "category": "麵食",
+    "dish": "義大利麵",
+    "address": "台北市文山區指南路二段161號",
+    "area": "指南路二段",
+    "sources": [
+      {
+        "label": "政大店地址與菜單介紹",
+        "url": "https://tenjo.tw/lazypasta/"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "slug": "hainan-chicken",
+    "name": "指南山下海南雞飯",
+    "category": "飯類",
+    "dish": "海南雞飯",
+    "address": "台北市文山區指南路二段139號",
+    "area": "指南路二段",
+    "sources": [
+      {
+        "label": "政大記憶網",
+        "url": "https://nccuwiki.lib.nccu.edu.tw/index.php/政大週邊美食"
+      }
+    ]
+  },
+  {
+    "slug": "yunnan-kitchen",
+    "name": "滇味廚房 政大總店",
+    "category": "麵食",
+    "dish": "過橋米線",
+    "address": "台北市文山區指南路二段167號",
+    "area": "指南路二段",
+    "sources": [
+      {
+        "label": "非凡新聞店家介紹",
+        "url": "https://news.ustv.com.tw/food/shop/1266"
+      }
+    ]
+  },
+  {
+    "slug": "bafang",
+    "name": "八方雲集 政大店",
+    "category": "水餃",
+    "dish": "水餃",
+    "address": "台北市文山區指南路二段47號",
+    "area": "指南路二段",
+    "sources": [
+      {
+        "label": "Uber Eats 政大店菜單",
+        "url": "https://www.ubereats.com/tw/store/八方雲集-政大店/XTLA1Xm_X7-Qw0s6wxYpNw"
+      }
+    ]
+  },
+  {
+    "slug": "beef-noodles",
+    "name": "政大原汁牛肉麵",
+    "category": "麵食",
+    "dish": "牛肉麵",
+    "address": "台北市文山區指南路二段59號",
+    "area": "指南路二段",
+    "sources": [
+      {
+        "label": "店家刊登地址",
+        "url": "https://www.1111.com.tw/job/132079724"
+      }
+    ]
+  },
+  {
+    "slug": "vegetarian",
+    "name": "素還真 政大店",
+    "category": "素食",
+    "dish": "素食快餐",
+    "address": "台北市文山區指南路二段64號・政大憩賢樓1樓",
+    "area": "校園內",
+    "sources": [
+      {
+        "label": "政大校內餐飲商家簡介",
+        "url": "https://osa.nccu.edu.tw/files/20286694285816e2078423b.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "geng-king",
+    "name": "正大焿大王 政大店",
+    "category": "麵食",
+    "dish": "綜合焿麵",
+    "address": "台北市文山區指南路二段151號",
+    "area": "指南路二段",
+    "sources": [
+      {
+        "label": "Uber Eats 政大店菜單",
+        "url": "https://www.ubereats.com/tw/store/%E6%AD%A3%E5%A4%A7%E7%84%BF%E5%A4%A7%E7%8E%8B-%E6%94%BF%E5%A4%A7%E5%BA%97/KbMf80BOUd-9LCwKv4kWZA"
+      }
+    ]
+  },
+  {
+    "slug": "little-happiness",
+    "name": "小確幸",
+    "category": "咖哩",
+    "dish": "酥炸香酥雞咖哩飯",
+    "address": "台北市文山區指南路二段45巷1號",
+    "area": "指南路二段",
+    "sources": [
+      {
+        "label": "Uber Eats 店家菜單",
+        "url": "https://www.ubereats.com/tw/store/小確幸-咖哩飯-丼飯-義大利麵/QlQK7_KTUaqbf1ErMSEmlg"
+      }
+    ],
+    "price": {
+      "amount": 140,
+      "kind": "外送價",
+      "checked": "2026-11-08"
+    }
+  }
+]
