@@ -1,18 +1,15 @@
 # 政大周邊吃飯地圖
 
-收錄政大正門周邊與校園內的十家正餐店。可以按飯類、麵食、水餃、咖哩與素食篩選，再進店家頁看餐點、地址、導航和來源。首頁是街區示意，實際路線請點 Google Maps。
+下課不知道要吃什麼時，可以用這個網站找政大附近的正餐。第一版收錄十家店，包含雞肉本家的好吃雞肉飯、食鼎鵝肉的鵝肉便當，以及 Lazy Pasta 的義大利麵。
 
-## 預覽與開發
+[開啟政大周邊吃飯地圖](https://113207414-ops.github.io/nccu-food-map/)
 
-解壓後用瀏覽器開啟 index.html。更新資料時先讀 [AGENTS.md](AGENTS.md)，修改 data/restaurants.json，再執行 `python3 build.py`。Python 只在生成頁面時使用，瀏覽網站時不需要。
+## 網站怎麼用
 
-## 發布 GitHub Pages
+首頁可以依飯類、麵食、水餃、咖哩和素食篩選，也可以從街區示意圖找店。點進店家頁就能看到主打餐點、地址和資料來源。要看實際位置或規劃路線，可以點店家頁的 Google Maps 連結。
 
-1. 建立公開 Repository，名稱可用 nccu-food-map。
-2. 將解壓後的檔案和資料夾上傳到根目錄，保留 assets、data 和 shops 的結構。
-3. Settings → Pages → Deploy from a branch → main → /(root) → Save。
-4. 從 Visit site 開啟網站，確認分類篩選、店家頁和導航連結。
+## 以後怎麼新增店家
 
-## 擴充示範
+新增店家時，先讓 AI 讀取 [AGENTS.md](AGENTS.md)，再查核店名、餐點、地址和來源，把資料加進 `data/restaurants.json`。執行 `python3 build.py` 後，首頁的店家卡片、街區標記和個別店家頁就會一起更新。
 
-建立九家店的版本後，依 AGENTS.md 在資料陣列末尾加入小確幸，再執行 build.py。首頁增加咖哩分類下的標記與卡片，並生成 shops/little-happiness.html。第十一家店可以走相同流程，讓三處內容沿用同一筆資料。
+這次用第十家店「小確幸」示範這個流程。如果之後要加第十一家，例如一家拉麵店，就可以請 AI 先讀 `AGENTS.md`，再照同一套格式補上店家資料，最後確認首頁連結和導航。
